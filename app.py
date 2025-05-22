@@ -35,7 +35,7 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 # Preload the PDF
-pdf_path = "IFSSA and Insights.pdf"  # Update with your actual PDF file
+pdf_path = "Insights.pdf"  # Update with your actual PDF file
 pdf_text = extract_text_from_pdf(pdf_path)
 
 # Function to generate response from the model
