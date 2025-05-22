@@ -20,7 +20,7 @@ api_key = st.secrets["api_keys"]["api_key"]
 genai.configure(api_key=api_key)
 
 # Loading dataset
-df1 = pd.read_csv("df.csv")  # Update with your actual dataset file
+df1 = pd.read_csv("df.csv")  
 
 # Function to extract text from a preloaded PDF
 def extract_text_from_pdf(pdf_path):
