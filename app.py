@@ -65,7 +65,7 @@ except ImportError:
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load("model_top7.pkl")
+        model = joblib.load("models/model_top7.pkl")
         # st.success("✅ Model loaded successfully!")
         
         # Debug: Show model structure
