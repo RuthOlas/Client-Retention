@@ -14,7 +14,7 @@ import PyPDF2
 
 # Access the API key from Streamlit secrets
 api_key = st.secrets["api_keys"][""]
-AIzaSyCvAnRsESPjWSHY10wU6lGL2XsD-UaZIKI
+
 
 # Configure the API key
 genai.configure(api_key=api_key)
