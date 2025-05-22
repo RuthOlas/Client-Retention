@@ -13,7 +13,7 @@ import PyPDF2
 
 
 # Access the API key from Streamlit secrets
-api_key = st.secrets["api_keys"]["GOOGLE_API_KEY"]
+api_key = st.secrets["api_keys"]["api_key"]
 
 
 # Configure the API key
