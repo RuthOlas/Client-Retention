@@ -361,7 +361,7 @@ def chatbox():
         return text
 
     # Preload the PDF
-    pdf_path = "IFSSA and Insights.pdf"  # Update with your actual PDF file
+    pdf_path = "Insights.pdf"  # Update with your actual PDF file
     pdf_text = extract_text_from_pdf(pdf_path)
     if not pdf_text:
         pdf_text = ""  # Ensure pdf_text is an empty string if extraction fails
